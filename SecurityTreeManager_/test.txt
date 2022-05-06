@@ -1,0 +1,3 @@
+GOAL Use DDoS Attack to Disrupt All Users
+O Attack Servers
+O Attack Comm Infrastructure

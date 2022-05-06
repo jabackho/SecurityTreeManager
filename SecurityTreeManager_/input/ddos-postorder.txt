@@ -1,0 +1,15 @@
+O 0.5 6 5000 "Rent" Existing BOTNET
+A 0.5 3 2000 Find Vulnerable Computers
+A 0.4 4 5000 Infect Computer with BOT
+A 0.6 4 1000 Remain Undetected
+O Build a BOTNET
+O Direct BOTNET against key Servers
+O 0.3 7 30000 Infect Servers with Worm/Virus
+O Attack Servers
+O 0.3 7 30000 Attack Switches
+O 0.3 7 30000 Attack Routers
+O 0.1 8 50000 Attack DNS
+O Attack Comm Infrastructure
+O 0.1 5 10000 Infect Clients with Worm/Virus
+O Attack All Clients
+GOAL Use DDoS Attack to Disrupt All Users

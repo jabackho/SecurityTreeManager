@@ -1,0 +1,26 @@
+A 0.53 4 33000.0  Description1
+A 0.17 2 59000.0  Description4
+A 0.38 9 4000.0  Description5
+A 0.77 1 32000.0  Description6
+A 0.94 1 41000.0  Description7
+A 0.31 1 41000.0  Description8
+O   Description3
+A 0.95 1 61000.0  Description10
+A 0.26 5 68000.0  Description11
+A 0.94 4 56000.0  Description12
+A 0.65 10 27000.0  Description13
+A 0.47 8 71000.0  Description14
+A 0.2 1 61000.0  Description15
+O   Description9
+A 0.73 1 64000.0  Description17
+A 0.24 4 20000.0  Description18
+A 0.26 2 6000.0  Description19
+A 0.89 9 97000.0  Description20
+A 0.82 5 90000.0  Description21
+A 0.6 8 49000.0  Description22
+A 0.79 6 94000.0  Description23
+O   Description16
+O 0.47 5 55000.0  Description24
+O 0.13 2 2000.0  Description25
+A   Description2
+GOAL  Description0

@@ -1,0 +1,12 @@
+9-13-2015 2:58:49,user2,save patient list
+12-18-2012 16:25:58,user18,view diagnoses
+7-19-2013 22:49:10,user1,edit email reminders
+7-10-2015 0:26:58,user15,add patient representative list
+8-1-2015 3:54:17,user10,update appointment requests
+12-12-2016 6:28:13,user6,edit patient representative list
+9-13-2015 2:58:49,user3,save patient list
+12-18-2012 16:25:58,user67,view diagnoses
+12-19-2012 16:25:58,user64,view diagnoses
+9-13-2015 2:58:49,user4,save patient list
+1-18-2012 16:25:58,user89,view diagnoses
+9-13-2015 2:58:49,user5,save patient list

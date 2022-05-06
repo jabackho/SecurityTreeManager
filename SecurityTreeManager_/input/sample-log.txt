@@ -1,0 +1,20 @@
+9-13-2015 2:58:49,user2,save patient list
+12-18-2012 16:25:58,user18,view diagnoses
+7-19-2013 22:49:10,user1,edit email reminders
+7-10-2015 0:26:58,user15,add patient representative list
+8-1-2015 3:54:17,user10,update appointment requests
+12-12-2016 6:28:13,user6,edit patient representative list
+2-10-2015 16:12:23,user15,modify office visit information
+10-7-2015 5:34:10,user7,edit email reminders
+8-12-2011 20:13:47,user1,create basic health information
+6-27-2010 3:45:37,user10,delete calendar
+7-17-2015 15:55:25,user8,save immunizations
+10-6-2014 13:11:31,user5,edit office visit information
+3-29-2015 13:38:31,user7,view demographics
+7-14-2010 12:53:15,user7,remove diagnoses
+11-24-2007 23:10:24,user19,update appointment requests
+5-14-2013 21:16:36,user3,add upcoming appointments
+6-1-2007 7:37:31,user3,print immunizations
+9-17-2012 11:45:24,user16,create upcoming appointments
+1-3-2009 10:35:47,user11,view email reminders
+6-16-2013 23:28:33,user3,add appointment requests

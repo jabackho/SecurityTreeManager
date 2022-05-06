@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="2" timestamp="1530126821122" analysisTimestamp="1530126820094" release="">
+  <Project projectName="SecurityTreeManager">
+    <Jar>/Users/jakebackhouse/git/csc316-051-P2-04/SecurityTreeManager/bin/edu/ncsu/csc316/security_manager/manager/SecurityTreeManager.class</Jar>
+    <AuxClasspathEntry>/Users/jakebackhouse/git/csc316-051-P2-04/SecurityTreeManager/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakebackhouse/git/csc316-051-P2-04/SecurityTreeManager/src</SrcDir>
+    <SrcDir>/Users/jakebackhouse/git/csc316-051-P2-04/SecurityTreeManager/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="EQ_COMPARETO_USE_OBJECT_EQUALS" priority="2" rank="16" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.attack.AttackStep">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.attack.AttackStep" sourcefile="AttackStep.java" sourcepath="edu/ncsu/csc316/security_manager/attack/AttackStep.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.attack.AttackStep" name="compareTo" signature="(Ledu/ncsu/csc316/security_manager/attack/AttackStep;)I" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.attack.AttackStep" start="167" end="170" startBytecode="0" endBytecode="150" sourcefile="AttackStep.java" sourcepath="edu/ncsu/csc316/security_manager/attack/AttackStep.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="EQ_COMPARETO_USE_OBJECT_EQUALS" priority="2" rank="16" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.date.Date">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.date.Date" sourcefile="Date.java" sourcepath="edu/ncsu/csc316/security_manager/date/Date.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.date.Date" name="compareTo" signature="(Ledu/ncsu/csc316/security_manager/date/Date;)I" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.date.Date" start="94" end="103" startBytecode="0" endBytecode="204" sourcefile="Date.java" sourcepath="edu/ncsu/csc316/security_manager/date/Date.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.io.AttackFileReader">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" start="37" end="140" startBytecode="0" endBytecode="392" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    </Method>
+    <LocalVariable name="temp" register="8" pc="453" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" start="93" end="93" startBytecode="451" endBytecode="451" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" start="93" end="93" startBytecode="451" endBytecode="451" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="temp"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.io.AttackFileReader">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" start="37" end="140" startBytecode="0" endBytecode="1803" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="563" end="564" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" start="45" end="45" startBytecode="44" endBytecode="44" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.io.AttackFileReader" start="45" end="45" startBytecode="44" endBytecode="44" sourcefile="AttackFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/AttackFileReader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.io.LogFileReader">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.io.LogFileReader" sourcefile="LogFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/LogFileReader.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.io.LogFileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.io.LogFileReader" start="29" end="52" startBytecode="0" endBytecode="414" sourcefile="LogFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/LogFileReader.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="563" end="564" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.io.LogFileReader" start="31" end="31" startBytecode="20" endBytecode="20" sourcefile="LogFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/LogFileReader.java"/>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.io.LogFileReader" start="31" end="31" startBytecode="20" endBytecode="20" sourcefile="LogFileReader.java" sourcepath="edu/ncsu/csc316/security_manager/io/LogFileReader.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.list.Queue$Node">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.list.Queue$Node" start="31" end="47" sourcefile="Queue.java" sourcepath="edu/ncsu/csc316/security_manager/list/Queue.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="EQ_COMPARETO_USE_OBJECT_EQUALS" priority="2" rank="16" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.log.LogEntry">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.log.LogEntry" sourcefile="LogEntry.java" sourcepath="edu/ncsu/csc316/security_manager/log/LogEntry.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.log.LogEntry" name="compareTo" signature="(Ledu/ncsu/csc316/security_manager/log/LogEntry;)I" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.log.LogEntry" start="56" end="56" startBytecode="0" endBytecode="63" sourcefile="LogEntry.java" sourcepath="edu/ncsu/csc316/security_manager/log/LogEntry.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.tree.TreeNode">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.tree.TreeNode" sourcefile="TreeNode.java" sourcepath="edu/ncsu/csc316/security_manager/tree/TreeNode.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc316.security_manager.tree.TreeNode" name="parent" signature="Ledu/ncsu/csc316/security_manager/tree/TreeNode;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.tree.TreeNode" sourcefile="TreeNode.java" sourcepath="edu/ncsu/csc316/security_manager/tree/TreeNode.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.tree.TreeNode" start="78" end="78" startBytecode="7" endBytecode="7" sourcefile="TreeNode.java" sourcepath="edu/ncsu/csc316/security_manager/tree/TreeNode.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="33" end="133" startBytecode="0" endBytecode="816" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="563" end="564" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="33" end="33" startBytecode="7" endBytecode="7" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="33" end="33" startBytecode="7" endBytecode="7" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" name="logEntriesFile" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="18" end="18" startBytecode="0" endBytecode="0" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" name="manager" signature="Ledu/ncsu/csc316/security_manager/manager/SecurityTreeManager;" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="15" end="15" startBytecode="0" endBytecode="0" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" name="postOrderTreeFile" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" name="preOrderTreeFile" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc316.security_manager.ui.SecurityTreeManagerUI" start="21" end="21" startBytecode="0" endBytecode="0" sourcefile="SecurityTreeManagerUI.java" sourcepath="edu/ncsu/csc316/security_manager/ui/SecurityTreeManagerUI.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 27 Jun 2018 12:53:41 -0400" total_classes="1" referenced_classes="18" total_bugs="13" total_size="57" num_packages="8" java_version="1.8.0_25" vm_version="25.25-b02" cpu_seconds="12.63" clock_seconds="39.04" peak_mbytes="591.34" alloc_mbytes="910.50" gc_seconds="0.00" priority_2="10" priority_1="3">
+    <PackageStats package="edu.ncsu.csc316.security_manager.manager" total_bugs="0" total_types="1" total_size="57">
+      <ClassStats class="edu.ncsu.csc316.security_manager.manager.SecurityTreeManager" sourceFile="SecurityTreeManager.java" interface="false" size="57" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="353" invocations="320" avgMicrosecondsPerInvocation="1104" maxMicrosecondsPerInvocation="16612" standardDeviationMircosecondsPerInvocation="2166"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="153" invocations="2" avgMicrosecondsPerInvocation="76819" maxMicrosecondsPerInvocation="126811" standardDeviationMircosecondsPerInvocation="49992"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="71" invocations="73" avgMicrosecondsPerInvocation="979" maxMicrosecondsPerInvocation="5887" standardDeviationMircosecondsPerInvocation="1246"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="51" invocations="18" avgMicrosecondsPerInvocation="2879" maxMicrosecondsPerInvocation="21270" standardDeviationMircosecondsPerInvocation="5270"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="50" invocations="18" avgMicrosecondsPerInvocation="2789" maxMicrosecondsPerInvocation="13727" standardDeviationMircosecondsPerInvocation="3805"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="35" invocations="8" avgMicrosecondsPerInvocation="4395" maxMicrosecondsPerInvocation="22858" standardDeviationMircosecondsPerInvocation="7148"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="30" invocations="320" avgMicrosecondsPerInvocation="94" maxMicrosecondsPerInvocation="1119" standardDeviationMircosecondsPerInvocation="81"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="27" invocations="8" avgMicrosecondsPerInvocation="3462" maxMicrosecondsPerInvocation="18700" standardDeviationMircosecondsPerInvocation="5930"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1530126773863" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1530126773869" release="" codeSize="574" numClasses="12"/>
+  </History>
+</BugCollection>
